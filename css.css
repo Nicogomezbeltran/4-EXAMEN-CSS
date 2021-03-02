@@ -1,0 +1,618 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+@import url("https://fonts.googleapis.com/css?family=Roboto:400|Abel:400");
+
+@font-face {
+  font-family: "Arial-Regular";
+  font-style: normal;
+  font-weight: 400;
+  src: url("https://fonts.animaapp.com/Arial-Regular") format("opentype");
+}
+
+* {
+  box-sizing: border-box;
+}
+.abel-normal-black-14px {
+  color: black;
+  font-family: "Abel", Helvetica, Arial, serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+}
+.abel-normal-black-15px {
+  color: black;
+  font-family: "Abel", Helvetica, Arial, serif;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+}
+.abel-normal-black-18px {
+  color: black;
+  font-family: "Abel", Helvetica, Arial, serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+}
+.abel-normal-ocean-blue-pearl-15px {
+  color: var(--ocean-blue-pearl);
+  font-family: "Abel", Helvetica, Arial, serif;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+}
+.abel-normal-regent-gray-13px {
+  color: var(--regent-gray);
+  font-family: "Abel", Helvetica, Arial, serif;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+}
+.abel-normal-slate-gray-13px {
+  color: var(--slate-gray);
+  font-family: "Abel", Helvetica, Arial, serif;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+}
+.abel-normal-white-18px {
+  color: transparent;
+  font-family: "Abel", Helvetica, Arial, serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+}
+.animate-enter {
+  animation: animate-enter-frames 0.2s ease-in-out 0s 1 normal forwards;
+  display: block;
+}
+.arial-regular-normal-cerulean-16px {
+  color: var(--cerulean);
+  font-family: "Arial-Regular", Helvetica, Arial, serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+}
+.arial-regular-normal-slate-gray-10px {
+  color: var(--slate-gray);
+  font-family: "Arial-Regular", Helvetica, Arial, serif;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 400;
+}
+.examen {
+  align-items: flex-start;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  height: 842px;
+  overflow: hidden;
+  width: 595px;
+}
+.examen .address {
+  letter-spacing: 0px;
+  line-height: 18px;
+  margin-left: 3px;
+  margin-top: 7px;
+  min-height: 137px;
+  width: 345px;
+}
+.examen .auto-flex {
+  align-items: flex-start;
+  align-self: center;
+  display: flex;
+  height: 19px;
+  margin-right: 85.5px;
+  margin-top: 19px;
+  min-width: 403px;
+}
+.examen .auto-flex1 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  margin-left: -0.5px;
+  min-height: 524px;
+  width: 584px;
+}
+.examen .auto-flex2 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  left: 403px;
+  min-height: 233px;
+  position: absolute;
+  top: 174px;
+  width: 181px;
+}
+.examen .auto-flex2-1 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  min-height: 301px;
+  width: 348px;
+}
+.examen .auto-flex3 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  margin-left: 144px;
+  min-height: 29px;
+  width: 11px;
+}
+.examen .auto-flex3-1 {
+  align-items: flex-start;
+  align-self: flex-end;
+  display: flex;
+  flex-direction: column;
+  margin-left: 7px;
+  min-height: 302px;
+  width: 187px;
+}
+.examen .auto-flex4 {
+  align-items: flex-start;
+  align-self: flex-end;
+  display: flex;
+  height: 305px;
+  margin-right: 6px;
+  margin-top: 6px;
+  min-width: 542px;
+}
+.examen .auto-flex5 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  min-height: 28px;
+  width: 11px;
+}
+.examen .codigo {
+  left: 0px;
+  letter-spacing: 0px;
+  line-height: 18px;
+  pointer-events: auto;
+  position: absolute;
+  top: 30px;
+  transition: all 0.2s ease;
+  white-space: nowrap;
+}
+.examen .codigo:hover {
+  transform: translate(5px, 0);
+}
+.examen .como-contactar {
+  align-items: flex-end;
+  display: flex;
+  height: 29px;
+  left: 0px;
+  min-width: 166px;
+  position: absolute;
+  top: 3px;
+}
+.examen .educacin {
+  align-self: flex-end;
+  letter-spacing: 2px;
+  line-height: 18px;
+  min-height: 18px;
+  min-width: 76px;
+  pointer-events: auto;
+  transition: all 0.2s ease;
+  white-space: nowrap;
+}
+.examen .educacin:hover {
+  transform: translate(5px, 0);
+}
+.examen .ellipse-1 {
+  height: 107px;
+  left: 419px;
+  object-fit: cover;
+  pointer-events: auto;
+  position: absolute;
+  top: 14px;
+  transition: all 0.2s ease;
+  width: 107px;
+}
+.examen .ellipse-1:hover {
+  transform: translate(0, -5px);
+  box-shadow: 0px 12px 5px -8px rgba(0, 0, 0, 0.2);
+}
+.examen .ellipse-2 {
+  height: 46px;
+  left: 54px;
+  object-fit: cover;
+  pointer-events: auto;
+  position: absolute;
+  top: 93px;
+  transition: all 0.2s ease;
+  width: 46px;
+}
+.examen .ellipse-2:hover {
+  transform: translate(0, -5px);
+  box-shadow: 0px 12px 5px -8px rgba(0, 0, 0, 0.2);
+}
+.examen .estudiante {
+  left: 6px;
+  letter-spacing: 0px;
+  line-height: 28px;
+  position: absolute;
+  top: 1px;
+  white-space: nowrap;
+}
+.examen .estudiante-1 {
+  color: var(--cerulean);
+  font-family: "Roboto", Helvetica, Arial, serif;
+  font-size: 18px;
+  left: 6px;
+  letter-spacing: 0px;
+  line-height: 28px;
+  pointer-events: auto;
+  position: absolute;
+  top: 1px;
+  transition: all 0.2s ease;
+  white-space: nowrap;
+}
+.examen .estudiante-1:hover {
+  transform: translate(0, -5px);
+}
+.examen .experiencia-laboral {
+  left: 0px;
+  letter-spacing: 2px;
+  line-height: 18px;
+  pointer-events: auto;
+  position: absolute;
+  top: 0px;
+  transition: all 0.2s ease;
+  white-space: nowrap;
+}
+.examen .experiencia-laboral:hover {
+  transform: translate(5px, 0);
+}
+.examen .fraga-huesca {
+  left: 222px;
+  letter-spacing: 0px;
+  line-height: 18px;
+  position: absolute;
+  top: 83px;
+  white-space: nowrap;
+}
+.examen .html-css-javascript {
+  left: 0px;
+  letter-spacing: 0px;
+  line-height: 18px;
+  position: absolute;
+  top: 0px;
+}
+.examen .icon- {
+  height: 11px;
+  object-fit: cover;
+  pointer-events: auto;
+  transition: all 0.2s ease;
+  width: 11px;
+}
+.examen .icon-:hover {
+  filter: blur(10px);
+}
+.examen .icon-linkendin {
+  height: 11px;
+  margin-top: 7px;
+  object-fit: cover;
+  width: 11px;
+}
+.examen .icon-phone {
+  height: 11px;
+  margin-top: 6px;
+  object-fit: cover;
+  pointer-events: auto;
+  transition: all 0.2s ease;
+  width: 11px;
+}
+.examen .icon-phone:hover {
+  filter: blur(10px);
+}
+.examen .idiomas {
+  letter-spacing: 0px;
+  line-height: 18px;
+  margin-left: 280px;
+  min-height: 18px;
+  pointer-events: auto;
+  transition: all 0.2s ease;
+  white-space: nowrap;
+}
+.examen .idiomas:hover {
+  transform: translate(5px, 0);
+}
+.examen .line-1 {
+  height: 3px;
+  left: 48px;
+  position: absolute;
+  top: 156px;
+  width: 336px;
+}
+.examen .line-2 {
+  height: 2px;
+  left: 0px;
+  position: absolute;
+  top: 16px;
+  width: 141px;
+}
+.examen .line-2-1 {
+  height: 2px;
+  left: 407px;
+  position: absolute;
+  top: 156px;
+  width: 141px;
+}
+.examen .line-2-2 {
+  height: 2px;
+  left: 0px;
+  position: absolute;
+  top: 18px;
+  width: 335px;
+}
+.examen .line-3 {
+  height: 2px;
+  margin-left: 46px;
+  margin-top: 1px;
+  width: 335px;
+}
+.examen .nicofrg03 {
+  left: 222px;
+  letter-spacing: 0px;
+  position: absolute;
+  top: 103px;
+}
+.examen .overlap-group {
+  height: 20px;
+  margin-left: 0.5px;
+  margin-top: 79px;
+  position: relative;
+  width: 335px;
+}
+.examen .overlap-group1 {
+  align-self: flex-end;
+  height: 139px;
+  margin-top: 16px;
+  position: relative;
+  width: 182px;
+}
+.examen .overlap-group2 {
+  height: 158px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 472px;
+}
+.examen .overlap-group3 {
+  height: 36px;
+  left: 43px;
+  position: absolute;
+  top: 46px;
+  width: 162px;
+}
+.examen .overlap-group4 {
+  height: 56px;
+  margin-left: 1px;
+  margin-top: 4px;
+  position: relative;
+  width: 66px;
+}
+.examen .overlap-group5 {
+  height: 483px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 382px;
+}
+.examen .overlap-group6 {
+  height: 48px;
+  margin-top: 24px;
+  position: relative;
+  width: 140px;
+}
+.examen .overlap-group7 {
+  height: 35px;
+  left: 50px;
+  position: absolute;
+  top: 83px;
+  width: 166px;
+}
+.examen .overlap-group8 {
+  height: 36px;
+  left: -1px;
+  position: relative;
+  width: 141px;
+}
+.examen .overlap-group9 {
+  height: 483px;
+  position: relative;
+  width: 584px;
+}
+.examen .phone {
+  left: 20px;
+  letter-spacing: 0px;
+  line-height: 18px;
+  position: absolute;
+  top: 17px;
+  white-space: nowrap;
+}
+.examen .proyectos {
+  letter-spacing: 0px;
+  line-height: 18px;
+  margin-left: 1px;
+  margin-top: 73px;
+  min-height: 18px;
+  pointer-events: auto;
+  transition: all 0.2s ease;
+  white-space: nowrap;
+}
+.examen .proyectos:hover {
+  transform: translate(5px, 0);
+}
+.examen .rectangle-1 {
+  background-color: white;
+  height: 36px;
+  left: 0px;
+  pointer-events: auto;
+  position: absolute;
+  top: 0px;
+  transition: all 0.2s ease;
+  width: 162px;
+}
+.examen .rectangle-2 {
+  height: 14px;
+  left: 154px;
+  object-fit: cover;
+  pointer-events: auto;
+  position: absolute;
+  top: 18px;
+  transition: all 0.2s ease;
+  width: 12px;
+}
+.examen .rectangle-2:hover {
+  filter: blur(10px);
+}
+.examen .resumen {
+  left: 408px;
+  letter-spacing: 2px;
+  line-height: 18px;
+  pointer-events: auto;
+  position: absolute;
+  top: 140px;
+  transition: all 0.2s ease;
+  white-space: nowrap;
+}
+.examen .resumen:hover {
+  transform: translate(5px, 0);
+}
+.examen .santa-ana {
+  background-color: var(--ultramarine);
+  height: 16px;
+  margin-left: 0.5px;
+  width: 82px;
+}
+.examen .skills {
+  height: 36px;
+  left: 0px;
+  pointer-events: auto;
+  position: absolute;
+  top: 0px;
+  transition: all 0.2s ease;
+  width: 140px;
+}
+.examen .skills-1 {
+  left: 2px;
+  letter-spacing: 2px;
+  line-height: 18px;
+  position: absolute;
+  top: 0px;
+  width: 67px;
+}
+.examen .skills:hover {
+  transform: translate(5px, 0);
+}
+.examen .sobre-m {
+  left: 48px;
+  letter-spacing: 2px;
+  line-height: 18px;
+  pointer-events: auto;
+  position: absolute;
+  top: 142px;
+  transition: all 0.2s ease;
+}
+.examen .sobre-m:hover {
+  transform: translate(5px, 0);
+}
+.examen .span {
+  color: rgba(0, 0, 0, 1);
+  font-family: "Abel", Helvetica, Arial, serif;
+  font-size: 18px;
+}
+.examen .span0 {
+  color: rgba(42, 174, 230, 1);
+  font-family: "Arial-Regular", Helvetica, Arial, serif;
+  font-size: 16px;
+  line-height: 16px;
+}
+.examen .span1-0UW4zX {
+  color: rgba(42, 174, 230, 1);
+  font-family: "Arial-Regular", Helvetica, Arial, serif;
+  font-size: 18px;
+  line-height: 18px;
+}
+.examen .span1-VeuadF {
+  color: rgba(21, 18, 150, 1);
+  font-family: "Abel", Helvetica, Arial, serif;
+  font-size: 18px;
+  text-decoration: underline;
+}
+.examen .text-1 {
+  font-family: "Roboto", Helvetica, Arial, serif;
+  font-size: 24px;
+  left: 50px;
+  letter-spacing: 0px;
+  line-height: 28px;
+  position: absolute;
+  top: 12px;
+  white-space: nowrap;
+}
+.examen .text-2 {
+  left: 20px;
+  letter-spacing: 0px;
+  line-height: 18px;
+  position: absolute;
+  top: 0px;
+  white-space: nowrap;
+}
+.examen .text-3 {
+  left: 50px;
+  letter-spacing: 0px;
+  line-height: 18px;
+  position: absolute;
+  top: 170px;
+  width: 332px;
+}
+.examen .text-4 {
+  letter-spacing: 0px;
+  line-height: 18px;
+  margin-top: 6px;
+  min-height: 36px;
+}
+.examen .text-5 {
+  left: 0px;
+  letter-spacing: 0px;
+  line-height: 18px;
+  position: absolute;
+  top: 0px;
+  width: 182px;
+}
+.examen .text-6 {
+  letter-spacing: 0px;
+  line-height: 18px;
+  min-height: 56px;
+}
+.examen .text-7 {
+  align-self: flex-end;
+  letter-spacing: 0px;
+  line-height: 18px;
+  min-height: 101px;
+  width: 176px;
+}
+.roboto-normal-black-10px {
+  color: black;
+  font-family: "Roboto", Helvetica, Arial, serif;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 400;
+}
+:root {
+  --cerulean: rgba(42, 174, 230, 1);
+  --ocean-blue-pearl: rgba(80, 78, 177, 1);
+  --regent-gray: rgba(132, 144, 155, 1);
+  --slate-gray: rgba(115, 128, 141, 1);
+  --ultramarine: rgba(22, 19, 151, 1);
+}
+@keyframes animate-enter-frames {
+  from {
+  }
+  to {
+  }
+}
+a {
+  text-decoration: none;
+  display: contents;
+}
